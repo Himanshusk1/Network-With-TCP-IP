@@ -11,5 +11,15 @@
 
     <body>
       <div id="root"></div>
+
+      <!-- Static Next/Prev controls (responsive) -->
+      <div class="static-controls" id="static-controls" aria-hidden="false">
+        <button class="sc-btn sc-prev" id="sc-prev" aria-label="Previous">◀</button>
+        <div class="sc-pagination" id="sc-pagination" aria-hidden="true"></div>
+        <button class="sc-btn sc-next" id="sc-next" aria-label="Next">▶</button>
+      </div>
+
+      <link rel="stylesheet" href="/assets/static-controls.css">
+      <script src="/assets/static-controls.js" defer></script>
     </body>
   </html>
